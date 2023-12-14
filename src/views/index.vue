@@ -13,7 +13,7 @@ import { IxTag } from '@idux/components/tag'
 
 const inputValue = ref<string>('')
 
-const radioValue = ref<number>(1)
+const radioValue = ref<string>('beijing')
 const radioData: RadioData[] = [
   { key: 'beijing', label: 'Beijing' },
   { key: 'shanghai', label: 'Shanghai' },
@@ -131,7 +131,7 @@ for (let index = 0; index < 100; index++) {
       </IxSpace>
     </PageMain>
     <PageMain>
-      <IxSpace vertical>
+      <IxSpace vertical style="width: 200px;">
         <IxInput v-model:value="inputValue" placeholder="Basic usage" />
         <IxInput :value="inputValue" disabled placeholder="Disabled" />
         <IxInput :value="inputValue" readonly placeholder="Readonly" />
@@ -141,7 +141,7 @@ for (let index = 0; index < 100; index++) {
       <IxRadioGroup v-model:value="radioValue" :data-source="radioData" />
     </PageMain>
     <PageMain>
-      <IxSpace vertical>
+      <IxSpace vertical style="width: 200px;">
         <IxDatePicker v-model:value="datePickerValue1" clearable />
         <IxDatePicker v-model:value="datePickerValue2" type="week" clearable />
         <IxDatePicker v-model:value="datePickerValue3" type="month" clearable />
@@ -153,7 +153,7 @@ for (let index = 0; index < 100; index++) {
       <IxRate v-model:value="rateValue" />
     </PageMain>
     <PageMain>
-      <IxSpace>
+      <IxSpace vertical style="width: 200px;">
         <IxSelect v-model:value="selectValue1" :data-source="selectOptions1" />
         <IxSelect v-model:value="selectValue2" :data-source="selectOptions2" disabled />
       </IxSpace>
