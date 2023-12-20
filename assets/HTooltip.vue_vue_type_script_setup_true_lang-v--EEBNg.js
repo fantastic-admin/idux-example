@@ -1,0 +1,1 @@
+import{d as a,f as r,o as p,J as n,k as t,am as e,n as l,t as i,Y as m,Z as c}from"./index-UGVW_lzy.js";const u=a({__name:"HTooltip",props:{text:{default:""}},setup(d){return(o,_)=>{const s=r("VTooltip");return p(),n(s,m(c(o.$attrs)),{popper:t(()=>[e(o.$slots,"text",{},()=>[l(i(o.text),1)])]),default:t(()=>[e(o.$slots,"default")]),_:3},16)}}});export{u as _};
