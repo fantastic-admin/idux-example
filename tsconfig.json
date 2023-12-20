@@ -23,9 +23,7 @@
     "types": [
       "vite/client",
       "vite-plugin-pages/client",
-      "vite-plugin-vue-meta-layouts/client",
-      "@idux/cdk/types",
-      "@idux/components/types"
+      "vite-plugin-vue-meta-layouts/client"
     ],
     "allowImportingTsExtensions": true,
     "allowJs": false,
