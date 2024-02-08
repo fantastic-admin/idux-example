@@ -1,0 +1,1 @@
+import{d as t,a as n,A as a,o as r,g as s,x as e}from"./index-9gN8C_RD.js";const c=t({__name:"reload",setup(u){const o=n();return a(()=>{o.go(-1)}),(p,_)=>(r(),s("div"))}});typeof e=="function"&&e(c);export{c as default};
