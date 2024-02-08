@@ -19,8 +19,8 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.16",
-    "@idux/cdk": "2.0.0-beta.3",
-    "@idux/components": "2.0.0-beta.3",
+    "@idux/cdk": "2.0.0",
+    "@idux/components": "2.0.0",
     "@vueuse/core": "^10.7.0",
     "@vueuse/integrations": "^10.7.0",
     "axios": "^1.6.2",
