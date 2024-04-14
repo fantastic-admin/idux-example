@@ -5,7 +5,7 @@ const settingsStore = useSettingsStore()
 </script>
 
 <template>
-  <IxThemeProvider :preset-theme="settingsStore.settings.app.colorScheme === 'dark' ? 'dark' : 'default'">
+  <IxThemeProvider :preset-theme="settingsStore.currentColorScheme === 'dark' ? 'dark' : 'default'">
     <IxMessageProvider>
       <slot />
     </IxMessageProvider>
