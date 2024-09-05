@@ -1,0 +1,1 @@
+import{d as a,o as r,l as s,f as t,h as c,_ as i}from"./index-BlgixNEh.js";import{u as m}from"./useMainPage-DOKzjgPU.js";const d=a({name:"PageReload",__name:"index",setup(p){const n=m();return(_,e)=>{const o=i;return r(),s("span",{class:"flex-center cursor-pointer px-2 py-1",onClick:e[0]||(e[0]=l=>c(n).reload())},[t(o,{name:"i-iconoir:refresh-double"})])}}});export{d as _};

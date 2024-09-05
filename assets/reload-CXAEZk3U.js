@@ -1,0 +1,1 @@
+import{d as t,y as n,B as a,o as r,l as s,z as e}from"./index-BlgixNEh.js";const c=t({__name:"reload",setup(u){const o=n();return a(()=>{o.go(-1)}),(p,_)=>(r(),s("div"))}});typeof e=="function"&&e(c);export{c as default};
