@@ -101,7 +101,7 @@ for (let index = 0; index < 100; index++) {
 
 <template>
   <div>
-    <PageHeader>
+    <FaPageHeader>
       <template #title>
         <div class="flex items-center gap-4">
           欢迎使用 Fantastic-admin
@@ -112,8 +112,8 @@ for (let index = 0; index < 100; index++) {
           本演示站基于 Fantastic-admin 源码开发，将 Element Plus 替换为 iDux ，详细操作步骤请阅读官方文档。
         </div>
       </template>
-    </PageHeader>
-    <PageMain>
+    </FaPageHeader>
+    <FaPageMain>
       <IxSpace align="center">
         <IxButton mode="primary">
           Primary
@@ -129,18 +129,18 @@ for (let index = 0; index < 100; index++) {
           Link
         </IxButton>
       </IxSpace>
-    </PageMain>
-    <PageMain>
+    </FaPageMain>
+    <FaPageMain>
       <IxSpace vertical style="width: 200px;">
         <IxInput v-model:value="inputValue" placeholder="Basic usage" />
         <IxInput :value="inputValue" disabled placeholder="Disabled" />
         <IxInput :value="inputValue" readonly placeholder="Readonly" />
       </IxSpace>
-    </PageMain>
-    <PageMain>
+    </FaPageMain>
+    <FaPageMain>
       <IxRadioGroup v-model:value="radioValue" :data-source="radioData" />
-    </PageMain>
-    <PageMain>
+    </FaPageMain>
+    <FaPageMain>
       <IxSpace vertical style="width: 200px;">
         <IxDatePicker v-model:value="datePickerValue1" clearable />
         <IxDatePicker v-model:value="datePickerValue2" type="week" clearable />
@@ -148,24 +148,24 @@ for (let index = 0; index < 100; index++) {
         <IxDatePicker v-model:value="datePickerValue4" type="quarter" clearable />
         <IxDatePicker v-model:value="datePickerValue5" type="year" clearable />
       </IxSpace>
-    </PageMain>
-    <PageMain>
+    </FaPageMain>
+    <FaPageMain>
       <IxRate v-model:value="rateValue" />
-    </PageMain>
-    <PageMain>
+    </FaPageMain>
+    <FaPageMain>
       <IxSpace vertical style="width: 200px;">
         <IxSelect v-model:value="selectValue1" :data-source="selectOptions1" />
         <IxSelect v-model:value="selectValue2" :data-source="selectOptions2" disabled />
       </IxSpace>
-    </PageMain>
-    <PageMain>
+    </FaPageMain>
+    <FaPageMain>
       <IxSlider v-model:value="sliderValue1" />
       <IxSlider v-model:value="sliderValue2" range />
-    </PageMain>
-    <PageMain>
+    </FaPageMain>
+    <FaPageMain>
       <IxSwitch v-model:checked="switchChecked" />
-    </PageMain>
-    <PageMain>
+    </FaPageMain>
+    <FaPageMain>
       <IxTable :columns="columns" :data-source="data">
         <template #name="{ value }">
           <IxButton mode="link">
@@ -179,6 +179,6 @@ for (let index = 0; index < 100; index++) {
           </IxButtonGroup>
         </template>
       </IxTable>
-    </PageMain>
+    </FaPageMain>
   </div>
 </template>
